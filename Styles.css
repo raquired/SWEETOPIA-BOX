@@ -1,0 +1,32 @@
+p{
+    font-family: manrope;
+}
+
+h1, h2, h3{
+    font-family: "Denk One";
+    font-weight: 400; 
+    color: #000;
+}
+
+.cabecera{
+    z-index: 1;
+    padding: 0;
+}
+
+.menu{
+    background-color: #78D6FF;
+    height: auto;
+    padding: 2% 0;
+}
+
+.boton{
+    width: 120px;
+    background-color: #000;
+    color: #FF9AB2;
+}
+#descripcion{
+}
+
+.mid{
+    max-width: 500px;
+}
