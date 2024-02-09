@@ -1,3 +1,15 @@
+/**Cursor**/
+body{
+    cursor:url("img/Ellipse1.png"), auto;
+}
+
+/**Selection de la web**/
+h3::selection, h2::selection, h1::selection, p::selection, label::selection{
+    background-color:#FE3D51 ;
+    color: white;
+}
+
+/**Textos**/
 p{
     font-family: manrope;
 }
@@ -7,26 +19,94 @@ h1, h2, h3{
     font-weight: 400; 
     color: #000;
 }
-
-.cabecera{
+/**Secciones**/
+#cabecera{
     z-index: 1;
     padding: 0;
 }
 
-.menu{
+#redirect{
     background-color: #78D6FF;
-    height: auto;
-    padding: 2% 0;
 }
+
+/**Botones**/
 
 .boton{
-    width: 120px;
+    width: 130px;
     background-color: #000;
     color: #FF9AB2;
+    font-weight: 600;
 }
-#descripcion{
+.boton:hover{
+    background-color: #FE3D51;
+    color: #ffff;
 }
 
-.mid{
-    max-width: 500px;
+.bg-rosa{
+    background-color: #FF9AB2;
+}
+
+/**Sobrescribir Bootstrap color check**/
+
+.form-check-input:checked{
+    background-color: #FE3D51;
+    border-color: #FE3D51;
+}
+
+/**card**/
+
+.border-radius-13{
+    border-radius: 13%;
+}
+
+/**Sobrescribir Bootstrap estilo en acordeon**/
+
+.accordion-item{
+    border: none;
+    border-top: solid #000 2px;
+    border-bottom: solid #000 2px;
+    background-color: #FF9AB2;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #FF9AB2;
+    color: #000;
+    font-weight: 900;
+}
+
+.accordion-button{
+    background-color: #FF9AB2;
+    font-weight: 900; 
+    font-size: 20px;
+}
+
+.accordion-header{
+    font-family: manrope;
+    font-weight: 900;  
+}
+
+/**Formulario**/
+
+form{
+    font-family: manrope;
+}
+form.form-control{
+    border: 0;
+}
+
+label{
+    font-weight: 800;
+}
+
+input.form-control{
+    border: 2px solid #FF9AB2;
+}
+
+.form-select{
+    border: 2px solid #FF9AB2 ;
+}
+
+.form-control:focus, .form-select:focus{
+    border-color: #fe3d50f6;
+    box-shadow: 0 0 0 0.25rem rgba(255, 154, 178, .4);
 }
