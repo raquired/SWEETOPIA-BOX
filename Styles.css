@@ -12,6 +12,7 @@ h3::selection, h2::selection, h1::selection, p::selection, label::selection{
 /**Textos**/
 p{
     font-family: manrope;
+    font-size: 18px;
 }
 
 h1, h2, h3{
@@ -29,6 +30,51 @@ h1, h2, h3{
     background-color: #78D6FF;
 }
 
+/**Imagenes**/
+
+.bg-img-1{
+    background-image: url('img/img1.png');
+}
+.bg-img-2{
+    background-image: url('img/img13.png');
+}
+.bg-img-3{
+    background-image: url('img/img14.png');
+}
+.bg-img-4{
+    background-image: url('img/img8.png');
+}
+.bg-img-5{
+    background-image: url('img/img16.png');
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+/**Medias Query para adaprtar tamaños de imagenes segun la resolucion de pantallas**/
+
+@media (max-width: 1000px) {
+    .bg-img-5 {
+        height: 770px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bg-img-5 {
+        height: 500px;
+        width: 90%;
+    }
+}
+
+/**Carousel**/
+
+.carousel-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /**Botones**/
 
 .boton{
