@@ -20,6 +20,7 @@ h1, h2, h3{
     font-weight: 400; 
     color: #000;
 }
+
 /**Secciones**/
 #cabecera{
     z-index: 1;
@@ -52,6 +53,7 @@ h1, h2, h3{
     background-position: center;
     height: 600px;
 }
+
 /**Medias Query para adaprtar tamaños de imagenes segun la resolucion de pantallas**/
 
 @media (max-width: 1000px) {
@@ -83,6 +85,7 @@ h1, h2, h3{
     color: #FF9AB2;
     font-weight: 600;
 }
+
 .boton:hover{
     background-color: #FE3D51;
     color: #ffff;
